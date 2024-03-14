@@ -13,7 +13,7 @@ In the repository, you can find the training and evaluation code of the method p
 
 Running DBAT Training
 ```
-python train_dbat.py
+CUDA_VISIBLE_DEVICES=4 python train_dbat.py
 ```
 
 Running Auto-Attack [1]:
