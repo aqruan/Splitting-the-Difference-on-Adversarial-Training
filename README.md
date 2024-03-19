@@ -20,6 +20,8 @@ Running Auto-Attack [1]:
 ```
 import test_auto_attack
 natural_acc, robust_acc = test_auto_attack.main()
+我改了代码，以下运行方式
+CUDA_VISIBLE_DEVICES=4 python test_auto_attack.py
 ```
 
 
